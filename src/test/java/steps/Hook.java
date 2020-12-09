@@ -22,7 +22,7 @@ public class Hook extends BaseUtil {
 
     @After
     public void CloseBrowser(Scenario scenario) {
-    base.driver.close();
+   // base.driver.close();
 
     }
 }
